@@ -12,17 +12,20 @@ Extensive experiments demonstrate that integrating visual scanpaths improves act
 ![An abstract of the method](assets/Graphical_Abstract.jpg)
 
 ## Installation
-This project is developed using **Python 3.9.7** and Pytorch 1.11.0.
+This project is developed using **Python 3.1.2** and Pytorch 1.11.0.
 
 ### Python Packages
 ```txt
-numpy
-torch
+numpy==1.22.3
+torch==1.11.0
+torchaudio==0.11.0
+torchvision==0.12.0
 opencv-python
-matplotlib
+matplotlib==3.8.3
+timm==0.5.4
 tqdm
 scipy
-
+```
 ## Citation
 ```
 @article{verma2025dynamic,
