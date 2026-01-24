@@ -4,7 +4,7 @@
 Source code for the paper:  
 **"Dynamic Context Learning using Multiple Visual Scanpaths for Action Classification in Still Images"**.
 
-\href{Paper link}{https://www.sciencedirect.com/science/article/pii/S1568494625018344}
+[Paper link](https://www.sciencedirect.com/science/article/pii/S1568494625018344)
 
 Humans consistently recognize actions in images through visual observation by adeptly attending to the entities involved and identifying their contextual relationships. 
 Drawing inspiration from this phenomenon, we propose a network that utilizes visual scanpaths to perform action classification in images. Specifically, the network consists of a novel dynamic context module (DCM) that implements human-like understanding by employing a scanpath-driven long short-term memory (LSTM) for enriched modeling of the dynamic interactions among visual entities involved in actions. The scanpaths on an image are generated using a human visual scanpath predictor, and our approach also includes the detection of object instances in an image and the extraction of their features. These features are subsequently enhanced by the DCM and then employed to perform the action classification. 
@@ -22,3 +22,16 @@ opencv-python
 matplotlib
 tqdm
 scipy
+
+## Citation
+```
+@article{verma2025dynamic,
+  title={Dynamic context learning using multiple visual scanpaths for action classification in still images},
+  author={Verma, Ashish and Satuley, Dishant and Sen, Debashis},
+  journal={Applied Soft Computing},
+  pages={114521},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+
