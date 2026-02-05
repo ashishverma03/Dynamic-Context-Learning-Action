@@ -29,10 +29,10 @@ scipy
 ### Datasets
 
 **VOC Action dataset**  
-[Dataset Website](http://host.robots.ox.ac.uk:8080/pascal/VOC/voc2012/index.html#devkit) | [Detected BBox and Scanpath Link]()
+[Dataset Website](http://host.robots.ox.ac.uk:8080/pascal/VOC/voc2012/index.html#devkit) | [Detected BBox and Scanpath Link](https://drive.google.com/drive/u/1/folders/1U-01EHjPqQPGjJZg2eXnkPE4BKXQuiB_)
 
 **Stanford 40 dataset**  
-[Dataset Website](http://vision.stanford.edu/Datasets/40actions.html) | [Detected BBox and Scanpath Link]()
+[Dataset Website](http://vision.stanford.edu/Datasets/40actions.html) | [Detected BBox and Scanpath Link](https://drive.google.com/drive/u/1/folders/1U-01EHjPqQPGjJZg2eXnkPE4BKXQuiB_)
 
 **Please note:**  
 For ease of use, we provide pre-processed scanpaths (both original and predicted) and bounding boxes (predicted by FasterRCNN) used in the method described in the paper.
@@ -59,4 +59,7 @@ For ease of use, we provide pre-processed scanpaths (both original and predicted
   publisher={Elsevier}
 }
 ```
+## Disclaimer
+The repository uses some code from [Human-object relation network](https://github.com/WalterMa/Human-Object-Relation-Network?tab=readme-ov-file)
+
 
