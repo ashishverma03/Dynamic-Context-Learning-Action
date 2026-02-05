@@ -35,7 +35,7 @@ scipy
 [Dataset Website](http://vision.stanford.edu/Datasets/40actions.html) | [Detected BBox and Scanpath Link](https://drive.google.com/drive/u/1/folders/1U-01EHjPqQPGjJZg2eXnkPE4BKXQuiB_)
 
 **Please note:**  
-For ease of use, we provide pre-processed scanpaths (both original and predicted) and bounding boxes (predicted by FasterRCNN) used in the method described in the paper.
+For ease of use, we provide pre-processed scanpaths (both original and predicted) and bounding boxes (predicted by FasterRCNN) used in the method described in the paper.  
 
 ### Training
 **Training on VOC dataset**
@@ -43,6 +43,7 @@ For ease of use, we provide pre-processed scanpaths (both original and predicted
 python main.py
 ```
 The model weights and log file will be saved in the ./models folder.
+
 **Testing on VOC dataset**
 ```
 python test.py
