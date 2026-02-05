@@ -27,7 +27,7 @@ tqdm
 scipy
 ```
 ### Datasets
-```
+
 VOC Action dataset: [Dataset Website](http://host.robots.ox.ac.uk:8080/pascal/VOC/voc2012/index.html#devkit), [Detected BBox and Scanpath Link] ()
 
 Stanford 40 dataset: [Dataset Website](http://vision.stanford.edu/Datasets/40actions.html), [Detected BBox and Scanpath Link] ()
@@ -41,7 +41,6 @@ VOC 2012 dataset:
 Stanford 40 dataset:
 2.1 Download the dataset and extract it to ~/data/.
 2.2 Download the  Scanpaths and BBoxes and extract them to ~/data/Stanford40/.
-```
 
 ## Citation
 ```
