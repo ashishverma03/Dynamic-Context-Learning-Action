@@ -42,6 +42,7 @@ For ease of use, we provide pre-processed scanpaths (both original and predicted
 ```
 python main.py
 ```
+The model weights and log file will be saved in the ./models folder.
 **Testing on VOC dataset**
 ```
 python test.py
