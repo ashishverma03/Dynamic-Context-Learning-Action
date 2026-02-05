@@ -37,6 +37,16 @@ scipy
 **Please note:**  
 For ease of use, we provide pre-processed scanpaths (both original and predicted) and bounding boxes (predicted by FasterRCNN) used in the method described in the paper.  
 
+---
+
+#### VOC 2012 dataset
+1. Download the dataset and extract it to `~/data/`.  
+2. Download the Scanpaths and BBoxes and extract them to `~/data/VOCdevkit/VOC2012/`.
+
+#### Stanford 40 dataset
+1. Download the dataset and extract it to `~/data/`.  
+2. Download the Scanpaths and BBoxes and extract them to `~/data/Stanford40/`.
+
 ### Training
 **Training on VOC dataset**
 ```
@@ -53,15 +63,7 @@ python test.py
 python main_standford.py
 ```
 
----
 
-#### VOC 2012 dataset
-1. Download the dataset and extract it to `~/data/`.  
-2. Download the Scanpaths and BBoxes and extract them to `~/data/VOCdevkit/VOC2012/`.
-
-#### Stanford 40 dataset
-1. Download the dataset and extract it to `~/data/`.  
-2. Download the Scanpaths and BBoxes and extract them to `~/data/Stanford40/`.
  
 
 ## Citation
