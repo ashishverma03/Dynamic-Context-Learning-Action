@@ -37,6 +37,20 @@ scipy
 **Please note:**  
 For ease of use, we provide pre-processed scanpaths (both original and predicted) and bounding boxes (predicted by FasterRCNN) used in the method described in the paper.
 
+###Training
+**Training on VOC dataset**
+```
+python main.py
+```
+**Testing on VOC dataset**
+```
+python test.py
+```
+** Training on Stanford 40 dataset **
+```
+python main_standford.py
+```
+
 ---
 
 #### VOC 2012 dataset
